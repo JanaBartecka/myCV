@@ -1,16 +1,39 @@
+/* Body, Header, Footer */
+
 body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     background-color: #D3EDF1;
-    margin=0
+    margin:0;
+    padding:0;
     line-height: 1.5;
  }
 
  header {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
     padding-top: 30px;
  }
+
+ img {    
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: inset(15% 40% 50% 40% round 15%);  
+    margin-bottom: -30%;
+    margin-top: -10%;
+   }
+
+ .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* General settings */
 
  h1,
  h2 {
@@ -22,11 +45,7 @@ body {
     font-style: italic;
 }
 
-.menu a:hover,
-.menu a:focus,
-.menu a:visited {
-    background-color: white;
-}
+/* Menu */
 
 .menu {
     margin: 0;
@@ -46,27 +65,64 @@ body {
     padding: 20px 30px;
  }
 
+ .menu a:hover,
+ .menu a:focus,
+ .menu a:visited {
+    background-color: white;
+}
+
+
+ /* Sections */
+
+ section {
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
  .PersonalInformation,
  .Education {
     background-color:#60B7C8;
 }
 
 .GoBack {
+    margin: 0;
+    padding: 0;
     text-align: center;
     padding-top: 15px;
+    background-color:#D9DEE3;
+    margin-right: 45%;
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1;
+    padding-bottom: 1%;
+    vertical-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+.GoBack a {
+    text-decoration: none;
+    color: #686868;
+    padding-top: 12%;
+    padding-left: 27%;
+    padding-right: 27%;
+    padding-bottom: 8%;
 }
 
-img {    
-    /* border-radius: 50%; */
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    clip-path: inset(15% 40% 50% 40% round 15%);  
-    margin-bottom: -30%;
-    margin-top: -10%;
-   }
-  
+.GoBack a:hover,
+.GoBack a:focus,
+.GoBack a:visited {
+    background-color: white;
+}
+
+
+/* Table in sections */
+
 table {
     margin-left: auto;
     margin-right: auto;
@@ -78,7 +134,7 @@ table {
 
 td {
     width: 50%;
-    text-align%: left;
+    text-align: left;
     padding: 10px 0;
     vertical-align: top;
 }
@@ -86,16 +142,3 @@ td {
 table .firstcolumn {
     width: 30%;
 }
-
-.footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-section {
-    padding: 50px 15%;
-    overflow: auto;
-}
-
