@@ -5,7 +5,7 @@ body {
     background-color: #D3EDF1;
     margin:0;
     padding:0;
-    line-height: 1.5;
+    line-height: 1.51;
  }
 
  header {
@@ -86,6 +86,8 @@ body {
  .Education {
     background-color:#60B7C8;
 }
+
+ /* Go Up button */
 
 .GoBack {
     margin: 0;
